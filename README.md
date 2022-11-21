@@ -17,7 +17,7 @@ Simulates the chaotic motion of a double pendulum in C++ using SFML, a third par
 - Pause and resume simulation
 
 ## Screenshots
-![Example](./img/sim_example.png)
+![Example](./DoublePendulum/img/sim_example.png)
 
 ## Setup
 ### Requirements 
