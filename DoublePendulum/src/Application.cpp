@@ -12,14 +12,14 @@ constexpr int WIDTH = 1600;
 constexpr int HEIGHT = 1080;
 
 // Initial conditions
-float l1 = 500;
-float l2 = 520;
-float m1 = 40.3f;
-float m2 = 41.0f;
-float theta1 = Utility::PI / 2.0f;
-float theta2 = 2.14f;
-float g = 1.2f;
-float damp = 0.9998f;
+float l1 = 505;
+float l2 = 470;
+float m1 = 43.3f;
+float m2 = 40.3f;
+float theta1 = Utility::PI / 2.2f;
+float theta2 = 2.19f;
+float g = 1.1f;
+float damp = 0.9999f;
 
 // Angular velocity (rad/s)
 float omega1 = 0.0f;
@@ -144,7 +144,7 @@ int main()
 	window.setView(view);
 
 	// Simulation loop
-	window.setFramerateLimit(100);
+	window.setFramerateLimit(120);
 	bool pause = true;
 	while (window.isOpen())
 	{
